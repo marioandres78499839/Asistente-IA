@@ -19,7 +19,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:3001/chat",
+        "asistente-ia-production-edfa.up.railway.app",
         {
           method: "POST",
           headers: {
