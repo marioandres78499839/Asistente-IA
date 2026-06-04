@@ -16,7 +16,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "asistente-ia-production-edfa.up.railway.app",
+        "https://asistente-ia-production-edfa.up.railway.app/chat",
         {
           method: "POST",
           headers: {
